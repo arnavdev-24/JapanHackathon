@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/regi" method="post">
+        <input type="hidden" name="country" value="japan">
+        <input type="text" name="username" placeholder="Enter Name of your company"> <br>
+        <input type="password" name="password" placeholder="Enter a Password"><br>
+        <input type="email" name="email" placeholder="Enter your email"><br>
+        <fieldset>
+            <legend>Select your sector:</legend>
+            <label><input type="radio" name="sector" value="1"> Automotive and mobility</label><br>
+            <label><input type="radio" name="sector" value="2"> Aerospace and defense</label><br>
+            <label><input type="radio" name="sector" value="3"> Agriculture and food</label><br>
+            <label><input type="radio" name="sector" value="4"> Chemicals and materials</label><br>
+            <label><input type="radio" name="sector" value="5"> Consumer goods and retail</label><br>
+            <label><input type="radio" name="sector" value="6"> Energy and utilities</label><br>
+            <label><input type="radio" name="sector" value="7"> Financial services</label><br>
+            <label><input type="radio" name="sector" value="8"> Healthcare and life sciences</label><br>
+            <label><input type="radio" name="sector" value="9"> Industrial manufacturing</label><br>
+            <label><input type="radio" name="sector" value="10"> Information technology and software</label><br>
+            <label><input type="radio" name="sector" value="11"> Electronics and semiconductor</label><br>
+            <label><input type="radio" name="sector" value="12"> Logistics and transportation</label><br>
+            <label><input type="radio" name="sector" value="13"> Media and entertainment</label><br>
+            <label><input type="radio" name="sector" value="14"> Telecommunications</label>
+        </fieldset>
+        <input type="text" name="description" placeholder="Briefly describe your company "><br>
+        <input type="text" name="services" placeholder="What services/ pdt are u bringing to india "><br>
+        <fieldset>
+            <legend>Select the Indian states or union territories where you are looking for a partner:</legend>
+            <label><input type="checkbox" name="region" value="Andhra Pradesh"> Andhra Pradesh</label><br>
+            <label><input type="checkbox" name="region" value="Arunachal Pradesh"> Arunachal Pradesh</label><br>
+            <label><input type="checkbox" name="region" value="Assam"> Assam</label><br>
+            <label><input type="checkbox" name="region" value="Bihar"> Bihar</label><br>
+            <label><input type="checkbox" name="region" value="Chhattisgarh"> Chhattisgarh</label><br>
+            <label><input type="checkbox" name="region" value="Goa"> Goa</label><br>
+            <label><input type="checkbox" name="region" value="Gujarat"> Gujarat</label><br>
+            <label><input type="checkbox" name="region" value="Haryana"> Haryana</label><br>
+            <label><input type="checkbox" name="region" value="Himachal Pradesh"> Himachal Pradesh</label><br>
+            <label><input type="checkbox" name="region" value="Jharkhand"> Jharkhand</label><br>
+            <label><input type="checkbox" name="region" value="Karnataka"> Karnataka</label><br>
+            <label><input type="checkbox" name="region" value="Kerala"> Kerala</label><br>
+            <label><input type="checkbox" name="region" value="Madhya Pradesh"> Madhya Pradesh</label><br>
+            <label><input type="checkbox" name="region" value="Maharashtra"> Maharashtra</label><br>
+            <label><input type="checkbox" name="region" value="Manipur"> Manipur</label><br>
+            <label><input type="checkbox" name="region" value="Meghalaya"> Meghalaya</label><br>
+            <label><input type="checkbox" name="region" value="Mizoram"> Mizoram</label><br>
+            <label><input type="checkbox" name="region" value="Nagaland"> Nagaland</label><br>
+            <label><input type="checkbox" name="region" value="Odisha"> Odisha</label><br>
+            <label><input type="checkbox" name="region" value="Punjab"> Punjab</label><br>
+            <label><input type="checkbox" name="region" value="Rajasthan"> Rajasthan</label><br>
+            <label><input type="checkbox" name="region" value="Sikkim"> Sikkim</label><br>
+            <label><input type="checkbox" name="region" value="Tamil Nadu"> Tamil Nadu</label><br>
+            <label><input type="checkbox" name="region" value="Telangana"> Telangana</label><br>
+            <label><input type="checkbox" name="region" value="Tripura"> Tripura</label><br>
+            <label><input type="checkbox" name="region" value="Uttar Pradesh"> Uttar Pradesh</label><br>
+            <label><input type="checkbox" name="region" value="Uttarakhand"> Uttarakhand</label><br>
+            <label><input type="checkbox" name="region" value="West Bengal"> West Bengal</label><br>
+            <label><input type="checkbox" name="region" value="Andaman and Nicobar Islands"> Andaman and Nicobar Islands</label><br>
+            <label><input type="checkbox" name="region" value="Chandigarh"> Chandigarh</label><br>
+            <label><input type="checkbox" name="region" value="Dadra and Nagar Haveli and Daman and Diu"> Dadra and Nagar Haveli and Daman and Diu</label><br>
+            <label><input type="checkbox" name="region" value="Delhi"> Delhi</label><br>
+            <label><input type="checkbox" name="region" value="Jammu and Kashmir"> Jammu and Kashmir</label><br>
+            <label><input type="checkbox" name="region" value="Ladakh"> Ladakh</label><br>
+            <label><input type="checkbox" name="region" value="Lakshadweep"> Lakshadweep</label><br>
+            <label><input type="checkbox" name="region" value="Puducherry"> Puducherry</label>
+            <label><input type="checkbox" name="region" value="India"> Whole India</label>
+        </fieldset>
+        <fieldset>
+            <legend>Select the languages you prefer:</legend>
+            <label><input type="checkbox" name="language" value="Japanese"> Japanese</label><br>
+            <label><input type="checkbox" name="language" value="Hindi"> Hindi</label><br>
+            <label><input type="checkbox" name="language" value="English"> English</label><br>
+            <label><input type="checkbox" name="language" value="Other Indian languages"> Other Indian languages</label><br>
+            <label><input type="checkbox" name="language" value="Other languages"> Other languages</label>
+        </fieldset>
+        <fieldset>
+            <legend>Select your partnership type:</legend>
+            <label><input type="checkbox" name="partner" value="1"> Distributor or sales partner</label><br>
+            <label><input type="checkbox" name="partner" value="2"> Technical partner</label><br>
+            <label><input type="checkbox" name="partner" value="3"> Local Customer Base</label><br>
+            <label><input type="checkbox" name="partner" value="4"> Supplier</label><br>
+            <label><input type="checkbox" name="partner" value="5"> Market Knowledge</label>
+        </fieldset>
+        <fieldset>
+            <legend>What do you want from your Indian partner?</legend>
+            <label><input type="checkbox" name="requirement" value="1"> Distributionship</label><br>
+            <label><input type="checkbox" name="requirement" value="2"> Technical partner</label><br>
+            <label><input type="checkbox" name="requirement" value="3"> Strategic partner</label><br>
+            <label><input type="checkbox" name="requirement" value="4"> Supplier</label><br>
+            <label><input type="checkbox" name="requirement" value="5"> Joint Venture</label><br>
+            <label><input type="checkbox" name="requirement" value="6"> Licensing Partner</label><br>
+            <label><input type="checkbox" name="requirement" value="7"> Consumer goods and retail</label>
+        </fieldset>
+        <button type="submit" value="/register" name="action">register</button>
+    </form>
+</body>
+</html>
